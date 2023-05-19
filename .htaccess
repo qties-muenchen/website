@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule "index.php" https://www.qties-muenchen.de/ [R=301,L]
+
+RewriteRule "qties_online" https://meet.jit.si/QTies_online_meeting [R=302,L]

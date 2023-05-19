@@ -1,0 +1,19 @@
+url: "https://www.qties-muenchen.de"
+
+sass:
+  style: compact
+
+exclude:
+  - README.md
+
+collections:
+  events:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event
