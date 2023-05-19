@@ -36,4 +36,3 @@ jobs:
         protocol: ftps
         local-dir: ./_site/
         security: strict
-        dry-run: true
