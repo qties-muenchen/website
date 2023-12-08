@@ -16,9 +16,8 @@ module Jekyll
     end
 
     private def date_with_time(date, time)
-      time = Time.strptime("#{date} #{time}", "%Y-%m-%d %H:%M")
-      time = @time_zone.utc_to_local(time.utc)
-      time
+      ENV["TZ"] = @tzid
+      Time.strptime("#{date} #{time}", "%Y-%m-%d %H:%M")
     end
 
     private def calendar(site_url, events)
@@ -36,7 +35,7 @@ module Jekyll
           e.description = "#{event.data["description"]}\nAlle Details auf #{url}"
           e.ip_class = "PUBLIC"
           e.organizer = "mailto:info@qties-muenchen.de"
-          e.location = event.data["place"]
+          e.location = event.data["place"] || date["place"]
 
           start_time = date_with_time(date["day"], date["start"])
           end_time = date_with_time(date["day"], date["end"])
