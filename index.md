@@ -16,24 +16,28 @@ Wenn du diese Haltung respektierst und unsere Gesprächs- und Verhaltensregeln m
 
 Und falls du befürchtest, dass du vielleicht nicht nonbinär genug bist oder nicht binär genug, zu trans\* oder nicht trans\* genug: Stimmt nicht! Wir sind alle verschieden und du bist genug. Komm vorbei!
 
-Präsenz- und Onlinetreffen finden aktuell wieder statt; schaut gerne regelmäßig auf unsere [Events-Seite](/events/).
+Präsenz- und Onlinetreffen finden aktuell wieder statt; schaut gerne regelmäßig auf unsere [Events-Seite]({% link events.html %}).
 Bei Fragen schreib uns gerne eine Mail an info@qties-muenchen.de.
 
 ## Aktuelles
 
+### Jetzt mit Kalender
+
+Auf vielfachen Wunsch haben wir einen Kalender mit allen Terminen bereitgestellt.
+Zum einen kannst du diesen Kalender [direkt auf der Webseite anschauen]({% link calendar.md %}).
+Alternativ kannst du in einem Tool deiner Wahl direkt die [ICS-Datei abonnieren](/events.ics).
+Aber Achtung: Die Kalender-Funktion ist noch experimentell und es könnte sein, dass Uhrzeiten falsch angezeigt werden.
+Schaut im Zweifel noch mal auf der Webseite vorbei!
+
 ### Eigener Auftritt
 
 Seit Februar 2023 haben wir eine neue Domain: [https://www.qties-muenchen.de](https://www.qties-muenchen.de).
-Wie du uns per Mail erreichst, findest du auf unserer [Kontakt-Seite](/impressum/).
-
-### Neue Webseite
-
-Im Juni haben wir unsere Webseite neu gestaltet.
-Falls dir irgendetwas auffallen sollte (fehlende Inhalte, Layout, usw.), melde dich gerne [bei uns](/impressum/).
+Wie du uns per Mail erreichst, findest du auf unserer [Kontakt-Seite]({% link impressum.md %}).
 
 ### Aktuelle Events
 
-Weitere Events [findest du hier](/events/).
+Weitere Events [findest du hier]({% link events.html %}).
+Einen Überblick über alle Events gibt es [im Kalender]({% link calendar.md %}).
 
 <div>
     {% include events.html only_future=true %}
